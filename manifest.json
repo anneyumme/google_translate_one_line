@@ -1,0 +1,18 @@
+{
+  "name": "Google Translate One Line",
+  "version": "1.0.0",
+  "description": "Converts the text in the input field of Google Translate to a single line and lower case",
+  "permissions": ["storage", "tabs"],
+  "manifest_version": 3,
+  "host_permissions": ["https://translate.google.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://translate.google.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Google Translate One Line",
+    "default_popup": "popup.html"
+  }
+}
