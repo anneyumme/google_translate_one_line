@@ -14,5 +14,9 @@
   "action": {
     "default_title": "Google Translate One Line",
     "default_popup": "popup.html"
+  },
+  "icons" : {
+    "16": "logo.png",
+    "48": "logo.png"
   }
 }
